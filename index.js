@@ -13,5 +13,5 @@ function deleteFromDriverByKey(driver, key){
   newDriver =  Object.assign({},driver);
   delete newDriver[key]
 
-  return driver
+  return newDriver
 }
