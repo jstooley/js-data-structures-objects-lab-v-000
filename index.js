@@ -1,5 +1,5 @@
 const driver = {};
 
 function updateDriverWithKetAndValie(driver,key,value){
-  return driver[key] = value;
+  driver[key] = value;
 }
